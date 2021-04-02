@@ -15,6 +15,7 @@
 		6C88F2202615BE5D00649F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C88F21E2615BE5D00649F74 /* LaunchScreen.storyboard */; };
 		6C88F22B2615BE5D00649F74 /* aTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88F22A2615BE5D00649F74 /* aTests.swift */; };
 		6C88F2362615BE5D00649F74 /* aUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88F2352615BE5D00649F74 /* aUITests.swift */; };
+		6C88F2472615D13E00649F74 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88F2462615D13E00649F74 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6C88F2102615BE5A00649F74 /* a.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = a.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C88F2102615BE5A00649F74 /* webViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C88F2132615BE5A00649F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C88F2152615BE5A00649F74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6C88F2172615BE5A00649F74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,12 +44,13 @@
 		6C88F21C2615BE5D00649F74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6C88F21F2615BE5D00649F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C88F2212615BE5D00649F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C88F2262615BE5D00649F74 /* aTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C88F2262615BE5D00649F74 /* webViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C88F22A2615BE5D00649F74 /* aTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aTests.swift; sourceTree = "<group>"; };
 		6C88F22C2615BE5D00649F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C88F2312615BE5D00649F74 /* aUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C88F2312615BE5D00649F74 /* webViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C88F2352615BE5D00649F74 /* aUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aUITests.swift; sourceTree = "<group>"; };
 		6C88F2372615BE5D00649F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C88F2462615D13E00649F74 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +91,9 @@
 		6C88F2112615BE5A00649F74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C88F2102615BE5A00649F74 /* a.app */,
-				6C88F2262615BE5D00649F74 /* aTests.xctest */,
-				6C88F2312615BE5D00649F74 /* aUITests.xctest */,
+				6C88F2102615BE5A00649F74 /* webViewer.app */,
+				6C88F2262615BE5D00649F74 /* webViewerTests.xctest */,
+				6C88F2312615BE5D00649F74 /* webViewerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +103,7 @@
 			children = (
 				6C88F2132615BE5A00649F74 /* AppDelegate.swift */,
 				6C88F2152615BE5A00649F74 /* SceneDelegate.swift */,
+				6C88F2462615D13E00649F74 /* File.swift */,
 				6C88F2172615BE5A00649F74 /* ContentView.swift */,
 				6C88F2192615BE5D00649F74 /* Assets.xcassets */,
 				6C88F21E2615BE5D00649F74 /* LaunchScreen.storyboard */,
@@ -139,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C88F20F2615BE5A00649F74 /* a */ = {
+		6C88F20F2615BE5A00649F74 /* webViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C88F23A2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "a" */;
+			buildConfigurationList = 6C88F23A2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "webViewer" */;
 			buildPhases = (
 				6C88F20C2615BE5A00649F74 /* Sources */,
 				6C88F20D2615BE5A00649F74 /* Frameworks */,
@@ -151,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = a;
+			name = webViewer;
 			productName = a;
-			productReference = 6C88F2102615BE5A00649F74 /* a.app */;
+			productReference = 6C88F2102615BE5A00649F74 /* webViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6C88F2252615BE5D00649F74 /* aTests */ = {
+		6C88F2252615BE5D00649F74 /* webViewerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C88F23D2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "aTests" */;
+			buildConfigurationList = 6C88F23D2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "webViewerTests" */;
 			buildPhases = (
 				6C88F2222615BE5D00649F74 /* Sources */,
 				6C88F2232615BE5D00649F74 /* Frameworks */,
@@ -169,14 +172,14 @@
 			dependencies = (
 				6C88F2282615BE5D00649F74 /* PBXTargetDependency */,
 			);
-			name = aTests;
+			name = webViewerTests;
 			productName = aTests;
-			productReference = 6C88F2262615BE5D00649F74 /* aTests.xctest */;
+			productReference = 6C88F2262615BE5D00649F74 /* webViewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6C88F2302615BE5D00649F74 /* aUITests */ = {
+		6C88F2302615BE5D00649F74 /* webViewerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C88F2402615BE5D00649F74 /* Build configuration list for PBXNativeTarget "aUITests" */;
+			buildConfigurationList = 6C88F2402615BE5D00649F74 /* Build configuration list for PBXNativeTarget "webViewerUITests" */;
 			buildPhases = (
 				6C88F22D2615BE5D00649F74 /* Sources */,
 				6C88F22E2615BE5D00649F74 /* Frameworks */,
@@ -187,9 +190,9 @@
 			dependencies = (
 				6C88F2332615BE5D00649F74 /* PBXTargetDependency */,
 			);
-			name = aUITests;
+			name = webViewerUITests;
 			productName = aUITests;
-			productReference = 6C88F2312615BE5D00649F74 /* aUITests.xctest */;
+			productReference = 6C88F2312615BE5D00649F74 /* webViewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6C88F20B2615BE5A00649F74 /* Build configuration list for PBXProject "a" */;
+			buildConfigurationList = 6C88F20B2615BE5A00649F74 /* Build configuration list for PBXProject "webViewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -227,9 +230,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C88F20F2615BE5A00649F74 /* a */,
-				6C88F2252615BE5D00649F74 /* aTests */,
-				6C88F2302615BE5D00649F74 /* aUITests */,
+				6C88F20F2615BE5A00649F74 /* webViewer */,
+				6C88F2252615BE5D00649F74 /* webViewerTests */,
+				6C88F2302615BE5D00649F74 /* webViewerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C88F2142615BE5A00649F74 /* AppDelegate.swift in Sources */,
+				6C88F2472615D13E00649F74 /* File.swift in Sources */,
 				6C88F2162615BE5A00649F74 /* SceneDelegate.swift in Sources */,
 				6C88F2182615BE5A00649F74 /* ContentView.swift in Sources */,
 			);
@@ -293,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		6C88F2282615BE5D00649F74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6C88F20F2615BE5A00649F74 /* a */;
+			target = 6C88F20F2615BE5A00649F74 /* webViewer */;
 			targetProxy = 6C88F2272615BE5D00649F74 /* PBXContainerItemProxy */;
 		};
 		6C88F2332615BE5D00649F74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6C88F20F2615BE5A00649F74 /* a */;
+			target = 6C88F20F2615BE5A00649F74 /* webViewer */;
 			targetProxy = 6C88F2322615BE5D00649F74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -491,7 +495,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/a.app/a";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webViewer.webViewerpp/webViewer";
 			};
 			name = Debug;
 		};
@@ -513,7 +517,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/a.app/a";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webViewer.webViewerpp/webViewer";
 			};
 			name = Release;
 		};
@@ -560,7 +564,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C88F20B2615BE5A00649F74 /* Build configuration list for PBXProject "a" */ = {
+		6C88F20B2615BE5A00649F74 /* Build configuration list for PBXProject "webViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C88F2382615BE5D00649F74 /* Debug */,
@@ -569,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C88F23A2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "a" */ = {
+		6C88F23A2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "webViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C88F23B2615BE5D00649F74 /* Debug */,
@@ -578,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C88F23D2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "aTests" */ = {
+		6C88F23D2615BE5D00649F74 /* Build configuration list for PBXNativeTarget "webViewerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C88F23E2615BE5D00649F74 /* Debug */,
@@ -587,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C88F2402615BE5D00649F74 /* Build configuration list for PBXNativeTarget "aUITests" */ = {
+		6C88F2402615BE5D00649F74 /* Build configuration list for PBXNativeTarget "webViewerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C88F2412615BE5D00649F74 /* Debug */,
